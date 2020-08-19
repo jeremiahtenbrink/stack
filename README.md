@@ -10,10 +10,10 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/jeremiahtenbrink/stack/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/jeremiahtenbrink/@jeremiah_tenbrink/stack" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/jeremiahtenbrink/stack" />
   </a>
-
-
+<a href="https://codeclimate.com/github/jeremiahtenbrink/stack/maintainability"><img src="https://api.codeclimate.com/v1/badges/22861f9c6270a507ff6e/maintainability" /></a>
+<a href="https://codeclimate.com/github/jeremiahtenbrink/stack/test_coverage"><img src="https://api.codeclimate.com/v1/badges/22861f9c6270a507ff6e/test_coverage" /></a>
 </p>
 
 
