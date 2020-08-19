@@ -100,6 +100,8 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="stack.html#getsize" class="tsd-kind-icon">get<wbr>Size</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="stack.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="stack.html#pop" class="tsd-kind-icon">pop</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="stack.html#push" class="tsd-kind-icon">push</a></li>
 							</ul>
 						</section>
 					</div>
@@ -117,7 +119,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/58835e3/src/Stack.ts#L7">Stack.ts:7</a></li>
+									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L7">Stack.ts:7</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="stack.html" class="tsd-signature-type">Stack</a></h4>
@@ -133,7 +135,7 @@
 					<div class="tsd-signature tsd-kind-icon">dll<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DoublyLinkedList</span><span class="tsd-signature-symbol"> = new DoublyLinkedList()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/58835e3/src/Stack.ts#L7">Stack.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L7">Stack.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -150,7 +152,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/58835e3/src/Stack.ts#L16">Stack.ts:16</a></li>
+									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L16">Stack.ts:16</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -172,7 +174,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/58835e3/src/Stack.ts#L24">Stack.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L24">Stack.ts:24</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -181,6 +183,58 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="pop" class="tsd-anchor"></a>
+					<h3>pop</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">pop<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L40">Stack.ts:40</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Pops an item off the top of the stack.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="push" class="tsd-anchor"></a>
+					<h3>push</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">push<span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jeremiahtenbrink/stack/blob/12ae4e0/src/Stack.ts#L32">Stack.ts:32</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Pushes a item on the top of the stack.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>item: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography">
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -212,6 +266,12 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="stack.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="stack.html#pop" class="tsd-kind-icon">pop</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="stack.html#push" class="tsd-kind-icon">push</a>
 							</li>
 						</ul>
 					</li>

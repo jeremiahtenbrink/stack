@@ -16,13 +16,44 @@
 <a href="https://codeclimate.com/github/jeremiahtenbrink/stack/test_coverage"><img src="https://api.codeclimate.com/v1/badges/22861f9c6270a507ff6e/test_coverage" /></a>
 </p>
 
+## Discription
 
-Javascript Stack.
+Javascript implementation of a stack.
+
+## Documentation
+<a href="https://jeremiahtenbrink.github.io/stack/">
+Read documentation here.
+</a>
+
 
 ## Install
 
+### Npm
+
 ```sh
-npm install
+npm install @jeremiah_tenbrink/stack
+```
+
+### Yarn
+
+```shell script
+yarn install @jeremiah_tenbrink/stack
+```
+
+## Usage
+
+```javascript
+import {Stack} from "@jeremiah_tenbrink/stack";
+
+const stack = new Stack();
+stack.push("some item")
+stack.push("some item2")
+stack.push("some item3")
+
+while (!stack.isEmpty()){
+  const current = stack.pop();
+  console.log(current)
+}
 ```
 
 ## Run tests
@@ -49,7 +80,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink).<br />
+Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink)
+
 This project is [MIT](https://github.com/jeremiahtenbrink/stack/blob/master/LICENSE) licensed.
 
 ***
