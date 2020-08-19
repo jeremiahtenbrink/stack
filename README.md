@@ -3,7 +3,7 @@
   <a href="https://www.npmjs.com/package/@jeremiah_tenbrink/stack" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@jeremiah_tenbrink/stack.svg">
   </a>
-  <a href="&#34;https://jeremiahtenbrink.github.io/queue&#34;" target="_blank">
+  <a href="https://jeremiahtenbrink.github.io/queue" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/jeremiahtenbrink/stack/graphs/commit-activity" target="_blank">

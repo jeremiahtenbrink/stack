@@ -24,4 +24,12 @@ export class Stack {
   isEmpty(): boolean {
     return this.dll.getSize() === 0;
   }
+  
+  /**
+   * Pushes a item on the top of the stack.
+   * @param item
+   */
+  push(item: any):void {
+    this.dll.addToHead(item);
+  }
 }
