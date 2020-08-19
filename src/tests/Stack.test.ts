@@ -20,4 +20,23 @@ describe( 'tests Stack Class', () => {
     stack.push( "hello3" );
     expect( stack.getSize() ).toBe( 3 );
   } )
+  
+  it( 'test the stack pop method', () => {
+    expect( stack.getSize() ).toBe( 0 );
+    stack.push( 1 );
+    stack.push( 2 );
+    stack.push( 3 );
+    expect( stack.getSize() ).toBe( 3 );
+    let item = stack.pop();
+    expect( item ).toBe( 3 );
+    expect( stack.getSize() ).toBe( 2 )
+    item = stack.pop();
+    expect( item ).toBe( 2 )
+    item = stack.pop();
+    expect( item ).toBe( 1 )
+    item = stack.pop();
+    expect( item ).toBeNull();
+    expect( stack.getSize() ).toBe( 0 )
+    
+  } )
 } )

@@ -27,9 +27,17 @@ export class Stack {
   
   /**
    * Pushes a item on the top of the stack.
-   * @param item
+   * @param {any} item
    */
-  push(item: any):void {
-    this.dll.addToHead(item);
+  push( item: any ): void {
+    this.dll.addToHead( item );
+  }
+  
+  /**
+   * Pops an item off the top of the stack.
+   * @return {any}
+   */
+  pop(): any {
+    return this.dll.removeFromHead();
   }
 }
